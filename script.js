@@ -42,7 +42,7 @@ function displayStockInfo(data) {
 
     const html = `
         <p>Symbol: ${symbol}</p>
-        <p>Price: ${price}</p>
+        <p>Price: $ ${price}</p>
     `;
     stockInfoDiv.innerHTML = html;
 }
