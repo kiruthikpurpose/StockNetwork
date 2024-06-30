@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stock Network</h1>
+        <div class="stock-input">
+            <label for="stock-symbol">Enter Stock Symbol (e.g., AAPL):</label>
+            <input type="text" id="stock-symbol" placeholder="AAPL">
+            <p> </p>
+            <button id="get-price-btn">Get Price</button>
+        </div>
+        <div id="stock-info" class="stock-info">
+            <!-- Stock information will be displayed here -->
+        </div>
+    </div>
+
+    <div class="toggle-container">
+        <input type="checkbox" id="dark-mode-toggle">
+        <label for="dark-mode-toggle" class="toggle-label"></label>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
